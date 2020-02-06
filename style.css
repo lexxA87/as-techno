@@ -4,15 +4,13 @@ body {
   /*background-color: red;*/
 }
 .contaner {
-  width: 80%;
+  width: 960px;
   height: auto;
   margin: 0 auto;
   padding: 0;
   /* background-color: yellow;*/
 }
-header {
-  height: 85vh;
-}
+
 .header-top {
   display: flex;
   /*justify-content: space-between;*/
@@ -38,23 +36,59 @@ nav a {
 }
 
 .slider {
-  height: 100%;
-  background-color: turquoise;
 }
+.mySlides img {
+  width: 100%;
+  height: 550px;
+  max-height: 550px;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .withBord {
   box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.86);
 
   /*border-bottom: solid 2px gray;*/
 }
 .aboutUs {
+  padding: 20px;
   height: 300px;
   background-color: wheat;
 }
+h2 {
+  margin: 0;
+}
 .projects {
+  padding: 20px;
   height: 300px;
   background-color: yellowgreen;
 }
 .contacts {
+  padding: 20px;
   height: 200px;
   background-color: green;
 }

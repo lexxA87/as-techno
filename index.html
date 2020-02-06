@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>АС-Техно</title>
     <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+    <style>
+      .mySlides {
+        display: none;
+      }
+    </style>
   </head>
   <body>
     <div class="contaner">
@@ -21,8 +27,41 @@
             <a href="#our_contacts">Контакты</a>
           </nav>
         </div>
-        <div class="slider"></div>
       </header>
+      <div class="slider">
+        <div class="mySlides fade">
+          <img
+            src="images/commercial-air-conditioning-2571306_1920.jpg"
+            alt="slide"
+          />
+        </div>
+        <div class="mySlides fade">
+          <img src="images/industry-970151_1280.jpg" alt="slide" />
+        </div>
+        <div class="mySlides fade">
+          <img src="images/time-of-2353382_1280.jpg" alt="slide" />
+        </div>
+        <div class="mySlides fade">
+          <img src="images/valve-3827340_1280.jpg" alt="slide" />
+        </div>
+        <div class="mySlides fade">
+          <img src="images/valve-544138_1280.jpg" alt="slide" />
+        </div>
+        <div class="mySlides fade">
+          <img src="images/electric-4198293_640.jpg" alt="slide" />
+        </div>
+        <div class="mySlides fade">
+          <img src="images/industry-2063432_1920.jpg" alt="slide" />
+        </div>
+        <div class="mySlides fade">
+          <img src="images/cooling-2864859_1920.jpg" alt="slide" />
+        </div>
+        <script>
+          var slideIndex = 0;
+          showSlides(slideIndex);
+        </script>
+      </div>
+
       <section class="aboutUs withBord">
         <h2><a id="about_us"></a>О нас</h2>
         <img src="#" alt="aboutUs1" />
